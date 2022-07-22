@@ -6,6 +6,13 @@
     font-family: 'Oswald', sans-serif;
     color: white;
 }
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+
 
 body {
     height: 100vh;
@@ -46,3 +53,29 @@ body {
 .clock span.time {
     font-size: 25px;
 }
+
+.icons {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    row-gap: 10px;
+    align-items: center;
+    position: fixed;
+    bottom:20px;
+}
+
+.icons a {
+    position: relative;
+    color: #111;
+    font-size: 30px;
+    display:flex;
+    align-items: center;
+    text-decoration: none;
+    transition: 0.3s;
+    transition-property: transform;
+}
+
+.icons a:hover {
+    transform: scale(1.5);
+}
+
