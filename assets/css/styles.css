@@ -5,77 +5,320 @@
     padding: 0;
     font-family: 'Oswald', sans-serif;
     color: white;
-}
-.content {
-    display: flex;
-    flex-direction: column;
-    justify-content:center;
-    align-items: center;
+    
 }
 
 
-body {
-    height: 100vh;
-    background-image: radial-gradient( circle farthest-corner at 22.4% 21.7%, rgba(4,189,228,1) 0%, rgba(2,83,185,1) 100.2% );
-    display: flex;
-    align-items: center;
-    justify-content:center;
+/* MOBILE S, MOBILE M, MOBILE L */
+@media  screen and (min-width : 280px) and (max-width : 480px) {
+
+    .content {
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+    }
+    
+    
+    body {
+        height: 25vh;
+        background-color:#f4ec9c;
+        align-items: center;
+        justify-content:center;
+    }
+    
+    .clock {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        height: 8rem;
+        width: 17rem;
+        background-color: transparent;
+        box-shadow: 0px 4px 6px rgba(0,0,0.5);
+    }
+
+    .clock div {
+        height: 6rem;
+        width: 5rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-items: center;
+        background: rgba(5,5,5,0.9) ;
+        box-shadow: 3px 3px 8px rgba(0,0,0.7);
+        border-radius: 7px;
+        letter-spacing: 3px;
+    }
+    
+    .clock span {
+        font-weight: bolder;
+        font-size: 29px;
+    }
+    
+    .clock span.time {
+        font-size: 18px;
+        align-items: center;
+    }
+    
+    .icons {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        row-gap: 8px;
+        align-items: center;
+        position: fixed;
+        margin-bottom: 20rem;
+    }
+    
+    .icons a {
+        position: relative;
+        color: #111;
+        font-size: 30px;
+        display:flex;
+        align-items: center;
+        text-decoration: none;
+        transition: 0.3s;
+        transition-property: transform;
+    }
+    
+    .icons a:hover {
+        transform: scale(1.5);
+    }
 }
 
-.clock {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    height: 200px;
-    width: 550px;
-    background-color: transparent;
-    box-shadow: 0px 8px 10px rgba(0,0,0.5);
+/* iPADS, TABLET */
+@media  screen and (min-width : 481px) and (max-width : 767px) {
+    .content {
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+        height: 100vh;
+        width: 100vw;
+    }
+    
+    
+    body {
+        height: 100vh;
+        background-image:none;
+        background-color:#32DCA6;
+        display: flex;
+        align-items: center;
+        justify-content:center;
+    }
+    
+    .clock {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        height: 12.5rem;
+        width: 34.375rem;
+        background-color: transparent;
+        box-shadow: 0px 8px 10px rgba(0,0,0.5);
+    }
+
+    .clock div {
+        height: 10.625rem;
+        width: 9.375rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-items: center;
+        background: rgba(5,5,5,0.9) ;
+        box-shadow: 5px 5px 15px rgba(0,0,0.7);
+        border-radius: 7px;
+        letter-spacing: 3px;
+    }
+    
+    .clock span {
+        font-weight: bolder;
+        font-size: 60px;
+    }
+    
+    .clock span.time {
+        font-size: 25px;
+    }
+    
+    .icons {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        row-gap: 10px;
+        align-items: center;
+        position: fixed;
+        bottom:75%;
+    }
+    
+    .icons a {
+        position: relative;
+        color: #111;
+        font-size: 30px;
+        display:flex;
+        align-items: center;
+        text-decoration: none;
+        transition: 0.3s;
+        transition-property: transform;
+    }
+    
+    .icons a:hover {
+        transform: scale(1.5);
+    }
 }
 
-.clock div {
-    height: 170px;
-    width: 150px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-items: center;
-    background: rgba(5,5,5,0.9) ;
-    box-shadow: 5px 5px 15px rgba(0,0,0.7);
-    border-radius: 7px;
-    letter-spacing: 3px;
+/* SMALL SCREEN, LAPTOPS*/
+@media  screen and (min-width : 768px) and (max-width : 1024px) {
+    .content {
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+        height: 100vh;
+        width: 100vw;
+    }
+    
+    
+    body {
+        height: 100vh;
+        background-image:none;
+        background-color:turquoise;
+        display: flex;
+        align-items: center;
+        justify-content:center;
+    }
+    
+    .clock {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        height: 12.5rem;
+        width: 34.375rem;
+        background-color: transparent;
+        box-shadow: 0px 8px 10px rgba(0,0,0.5);
+    }
+
+    .clock div {
+        height: 10.625rem;
+        width: 9.375rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-items: center;
+        background: rgba(5,5,5,0.9) ;
+        box-shadow: 5px 5px 15px rgba(0,0,0.7);
+        border-radius: 7px;
+        letter-spacing: 3px;
+    }
+    
+    .clock span {
+        font-weight: bolder;
+        font-size: 60px;
+    }
+    
+    .clock span.time {
+        font-size: 25px;
+    }
+    
+    .icons {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        row-gap: 10px;
+        align-items: center;
+        position: fixed;
+        bottom:75%;
+    }
+    
+    .icons a {
+        position: relative;
+        color: #111;
+        font-size: 30px;
+        display:flex;
+        align-items: center;
+        text-decoration: none;
+        transition: 0.3s;
+        transition-property: transform;
+    }
+    
+    .icons a:hover {
+        transform: scale(1.5);
+    }
 }
 
-.clock span {
-    font-weight: bolder;
-    font-size: 60px;
-}
+/* DESKTOPS,  LARGE SCREEN*/
+@media  screen and (min-width : 1025px) {
+    
+    .content {
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+        height: 100vh;
+        width: 100vw;
+    }
 
-.clock span.time {
-    font-size: 25px;
-}
+    body {
+        background-image: radial-gradient( circle farthest-corner at 22.4% 21.7%, rgba(4,189,228,1) 0%, rgba(2,83,185,1) 100.2% );
+        display: flex;
+        align-items: center;
+        justify-content:center;
+    }
 
-.icons {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-    row-gap: 10px;
-    align-items: center;
-    position: fixed;
-    bottom:20px;
-}
+    .clock {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        height: 12.5rem;
+        width: 34.375rem;
+        background-color: transparent;
+        box-shadow: 0px 8px 10px rgba(0,0,0.5);
+    }
 
-.icons a {
-    position: relative;
-    color: #111;
-    font-size: 30px;
-    display:flex;
-    align-items: center;
-    text-decoration: none;
-    transition: 0.3s;
-    transition-property: transform;
-}
+    .clock div {
+        height: 10.625rem;
+        width: 9.375rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-items: center;
+        background: rgba(5,5,5,0.9) ;
+        box-shadow: 5px 5px 15px rgba(0,0,0.7);
+        border-radius: 7px;
+        letter-spacing: 3px;
+    }
 
-.icons a:hover {
-    transform: scale(1.5);
-}
+    .clock span {
+        font-weight: bolder;
+        font-size: 60px;
+    }
 
+    .clock span.time {
+        font-size: 25px;
+    }
+
+    .icons {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        row-gap: 10px;
+        align-items: center;
+        position: fixed;
+        margin-bottom: 25%;
+    }
+
+    .icons a {
+        position: relative;
+        color: #111;
+        font-size: 30px;
+        display:flex;
+        align-items: center;
+        text-decoration: none;
+        transition: 0.3s;
+        transition-property: transform;
+    }
+
+    .icons a:hover {
+        transform: scale(1.5);
+    }
+}
