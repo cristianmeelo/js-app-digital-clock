@@ -1,4 +1,3 @@
-
 <!-- PROJECT LOGO -->
 <div id="readme-top" align="center">
 <div >
@@ -31,10 +30,9 @@ alt="Logo" width="80" height="80">
 
 <!-- ABOUT THE PROJECT -->
 
-## About The Project
+## About The Project test
 
-![Product Name Screen Shot][product-screenshot]
-A useful project for practicing instances of `Date` from javascript. On websites it is usually used for promotion countdowns, but here it was useful to create an elegant clock that you can leave open as a background image.Differentials:
+![Product Name Screen Shot][product-screenshot] A useful project for practicing instances of `Date` from javascript. On websites it is usually used for promotion countdowns, but here it was useful to create an elegant clock that you can leave open as a background image.Differentials:
 
 - Responsiveness
 - JS language - Date constructor
@@ -146,18 +144,17 @@ with ❤️
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
 <!-- IMAGES -->
+
 [product-screenshot]: https://images.unsplash.com/photo-1524592094714-0f0654e20314?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1598&q=80
 
-
 <!-- LINKS -->
+
 [referencial-doc]: https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Global_Objects/Date
 [tutorial-video]: https://www.youtube.com/watch?v=GK0ok3ZCXwM&t=1s
-
 [partner-github]: https://github.com/Larissakich/relogiodigital
 
 <!-- SHIELDS -->
-[HTML5]:https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white
+
+[HTML5]: https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white
 [CSS3]: https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white
 [JS]: https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black
-
-
