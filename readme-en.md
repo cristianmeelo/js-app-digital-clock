@@ -11,7 +11,7 @@
   </tr>
 </table>
 
-![](https://github.com/cristianmeelo/react-app-github-finder/blob/main/thumbnail-en.png?raw=true#vitrinedev)
+![](https://github.com/cristianmeelo/js-app-digital-clock/blob/development/thumbnail-en.png?raw=truevitrinedev)
 
 # Digital Clock
 
