@@ -50,7 +50,7 @@ O DigitalClock é um aplicativo para consulta de perfis do github, desenvolvido 
 
 | :placard: Vitrine.Dev |                                                                      |
 | --------------------- | -------------------------------------------------------------------- |
-| :sparkles: Nome       | **Digite rápido**                                                    |
+| :sparkles: Nome       | **Digital Clock **                                                   |
 | :label: Tecnologias   | HTML, CSS, JavaScript,AWS Deployment,GitHub (tecnologias utilizadas) |
 | :rocket: URL          | http://cristianmeelo4.com.s3-website-sa-east-1.amazonaws.com/        |
 | :fire: Desafio        | https://www.youtube.com/watch?v=GK0ok3ZCXwM&t=1s                     |
