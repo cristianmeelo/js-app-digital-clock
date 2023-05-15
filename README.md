@@ -30,7 +30,7 @@ Não é apenas a funcionalidade que torna os relógios digitais tão especiais. 
 
 ## ⚙️ Técnicas e tecnologias usadas
 
-Check out this list of everything we will use in this app:
+Confira essa lista de tudo que vamos usar nesse app:
 
 - `HTML`
 - `CSS`
