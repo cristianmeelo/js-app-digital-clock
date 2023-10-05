@@ -17,17 +17,17 @@
 
 <br/>
 
-# Digital Clock
-
-The main functionality is to tell the time in a very elegant way, being an alternative to the background image:
-
-
 <div align="center">
 <a href="http://cristianmeelo4.com.s3-website-sa-east-1.amazonaws.com/">
   <img src="https://img.shields.io/badge/-check%20here-lightgrey"
   alt="Image App" >
 </a>
 </div>
+
+# Digital Clock
+
+The main functionality is to tell the time in a very elegant way, being an alternative to the background image:
+
 
 ## 🔨 Project features
 
