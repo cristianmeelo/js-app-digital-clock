@@ -11,16 +11,21 @@
   </tr>
 </table>
 
-![](https://github.com/cristianmeelo/js-app-digital-clock/blob/development/thumbnail.png?raw=true#vitrinedev)
+![](https://github.com/cristianmeelo/js-app-digital-clock/blob/development/thumbnail.png?raw=true)
+
+![](https://github.com/cristianmeelo/js-app-digital-clock/blob/main/thumbnail-mockup.png?raw=true#vitrinedev)
+
+<br/>
+
 
 # Digital Clock
 
 As principais funcionalidade é informar as horas de modo elegantíssimo, sendo uma altenativa para imagem de fundo.
 
-<img src="screencapture.png" alt="Image App" >
+
 <div align="center">
 <a href="http://cristianmeelo4.com.s3-website-sa-east-1.amazonaws.com/">
-  <img src="https://img.shields.io/badge/-confira%20aqui-lightgrey" alt="Image App" >
+  <img src="https://img.shields.io/badge/-CONFIRA%20AQUI-lightblue" alt="Image App" >
 </a>
 </div>
 
