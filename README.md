@@ -17,17 +17,17 @@
 
 <br/>
 
-
-# Digital Clock
-
-As principais funcionalidade é informar as horas de modo elegantíssimo, sendo uma altenativa para imagem de fundo.
-
-
 <div align="center">
 <a href="http://cristianmeelo4.com.s3-website-sa-east-1.amazonaws.com/">
   <img src="https://img.shields.io/badge/-CONFIRA%20AQUI-lightblue" alt="Image App" >
 </a>
 </div>
+
+
+# Digital Clock
+
+As principais funcionalidade é informar as horas de modo elegantíssimo, sendo uma altenativa para imagem de fundo.
+
 
 ## 🔨 Recursos do projeto
 
