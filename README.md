@@ -13,7 +13,7 @@
 
 ![](https://github.com/cristianmeelo/js-app-digital-clock/blob/development/thumbnail.png?raw=true)
 
-![](https://github.com/cristianmeelo/js-app-digital-clock/blob/main/thumbnail-mockup.png?raw=true#vitrinedev)
+![](https://github.com/cristianmeelo/js-app-digital-clock/blob/development/thumbnail-mockup.png?raw=true#vitrinedev)
 
 <br/>
 
