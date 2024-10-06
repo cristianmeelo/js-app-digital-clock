@@ -1,7 +1,7 @@
 <table align="right">
   <tr>
     <td>
-      <a href="README-en.md">🇺🇸 English (apenas no GitHub)</a>
+      <a href="README-EN.md">🇺🇸 English (apenas no GitHub)</a>
     </td>
   </tr>
   <tr>
@@ -23,11 +23,9 @@
 </a>
 </div>
 
-
 # Digital Clock
 
 As principais funcionalidade é informar as horas de modo elegantíssimo, sendo uma altenativa para imagem de fundo.
-
 
 ## 🔨 Recursos do projeto
 
